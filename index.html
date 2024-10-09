@@ -54,63 +54,6 @@
     <li><a href="ftp://pete@ftp.someserver.com/zadanie.txt">ссылку на файл на сервере FTP с авторизацией;</a></li>
 </ul>
 
-<div class="forma">
-    <h1>Форма</h1>
-    <form action="index.html" method="post">
-        <input type="text" name="name" placeholder="ФИО">
-        <input type="tel" name="tel" placeholder="Номер телефона">
-        <input type="email" name="email" placeholder="Email">
-        <p>Дата рождения:</p>
-        <input type="date" name="birth">
-        <p>Пол</p>
-        <div class="gender">
-            <label for="male">Муж.<input type="radio" id="male" name="gender" value="male">
-            </label>
-
-            <label for="female">Жен.<input type="radio" id="female" name="gender" value="female">
-            </label>
-            
-        </div>
-        <p>Любимый язык программирования:</p>
-        <select id="prog" multiple name="lang[]">
-            <option value="Pascal">Pascal</option>
-            <option value="C">C</option>
-            <option value="C++">C++</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="PHP">PHP</option>
-            <option value="Python">Python</option>
-            <option value="Java">Java</option>
-            <option value="Haskel">Haskel</option>
-            <option value="Clojure">Clojure</option>
-            <option value="Prolog">Prolog</option>
-            <option value="Scala">Scala</option>
-        </select>
-
-        <textarea name="bio" id="bio">Биография</textarea>
-        <div class="checkbox">
-            <label for="yes"><input type="checkbox">С контрактом ознакомлен(а)</label>
-        </div>
-        <input class="button" type="submit" value="Отправить">
-    </form>
-</div>
-    </ul>
-    <h1>Пронумерованный список ссылок:</h1>
-    <ol>
-        <li><a href="#" title="1">Первая</a></li>
-        <li><a href="#" title="2">Вторая</a></li>
-        <li><a href="#" title="3">Третья</a></li>
-        <li><a href="#" title="4">Четвертая</a></li>
-        <li><a href="#" title="5">Пятая</a></li>
-        <li><a href="#" title="6">Шестая</a></li>
-        <li><a href="#" title="7">Седьмая</a></li>
-        <li><a href="#" title="8">Восьмая</a></li>
-        <li><a href="#" title="9">Девятая</a></li>
-        <li><a href="#" title="10">Десятая</a></li>
-    </ol>
-        <ul>
-            <li><a href="ftp://jess12:bosox67@ftp.xyz.com" id="last_one">ftp ссылка</a></li>
-        </ul>
-
         <table>
             <tbody>
                 <tr>
@@ -156,6 +99,47 @@
                 </tr>
             </tbody>
         </table>
+        
+<div class="forma">
+    <h1>Форма</h1>
+    <form action="index.html" method="post">
+        <input type="text" name="name" placeholder="ФИО">
+        <input type="tel" name="tel" placeholder="Номер телефона">
+        <input type="email" name="email" placeholder="Email">
+        <p>Дата рождения:</p>
+        <input type="date" name="birth">
+        <p>Пол</p>
+        <div class="gender">
+            <label for="male">Муж.<input type="radio" id="male" name="gender" value="male">
+            </label>
+
+            <label for="female">Жен.<input type="radio" id="female" name="gender" value="female">
+            </label>
+            
+        </div>
+        <p>Любимый язык программирования:</p>
+        <select id="prog" multiple name="lang[]">
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+        </select>
+
+        <textarea name="bio" id="bio">Биография</textarea>
+        <div class="checkbox">
+            <label for="yes"><input type="checkbox">С контрактом ознакомлен(а)</label>
+        </div>
+        <input class="button" type="submit" value="Отправить">
+    </form>
+</div>
+    </ul>
     </form>
 </main>
 <footer>
